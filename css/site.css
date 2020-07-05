@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.wrapper{
+    width: 95%;
+    margin: auto;
+}
+
+.wrapper-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #ececec;
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+/* box-sizing: border-box; hace incluye el padding y el border para calcular las dimensiones del elemento*/
+.division {
+  flex: 50%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.division h3{
+    font-size: 35px;
+}
+
+.division h4{
+    font-size: 25px;
+}
+
+.image {
+  width: 80%;
+}
+
+.stars span{
+  font-size: 30px;
+  color: grey;
+}
+
+
+
